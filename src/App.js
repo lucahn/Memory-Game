@@ -48,7 +48,7 @@ class App extends React.Component {
 
   youLose = () => {
     this.setState({
-      alert: "Try Again!"
+      alert: "Try Again :("
     });
     this.endGame();
   }
