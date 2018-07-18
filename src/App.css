@@ -1,28 +1,22 @@
-.App {
+.box-king {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-top: 20px;
+  border: 2px solid rgb(15, 14, 19);
+  box-shadow: 10px 10px rgb(15, 14, 19);
+  border-radius: 5px;
+}
+
+.title {
+  background-color: #2B2A30;
+  font-family: 'Stardos Stencil', cursive;
+  color: #fdfdfd;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+  font-size: 50px;
+  margin: 0px;
   padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
